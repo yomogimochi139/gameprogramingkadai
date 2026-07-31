@@ -124,6 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0731kadai.cpp" />
+    <ClCompile Include="judge.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="characterData.h" />
+    <ClInclude Include="judge.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
