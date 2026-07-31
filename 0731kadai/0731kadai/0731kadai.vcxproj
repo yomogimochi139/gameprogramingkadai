@@ -124,11 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0731kadai.cpp" />
-    <ClCompile Include="judge.cpp" />
+    <ClCompile Include="Caster.cpp" />
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="Saber.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="characterData.h" />
-    <ClInclude Include="judge.h" />
+    <ClInclude Include="Caster.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="Saber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

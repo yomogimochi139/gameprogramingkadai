@@ -40,9 +40,6 @@ public:
 	//キャラの種類の初期化
 	virtual void initializeType() = 0;
 
-
-	virtual void WhenupdateStartTurn() = 0;
-
 protected:
 	charaParam param_{};  //キャラ毎のパラメータ
 	char       name_[64]; //キャラの名前
