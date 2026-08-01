@@ -5,7 +5,7 @@ Saber::Saber(int faction) {
 	faction_ = faction;
 	charaId_ = 1;
 	
-	sprintf(name_, "Œ•Žm");
+	printf(name_, "Œ•Žm");
 	initializeType();
 }
 

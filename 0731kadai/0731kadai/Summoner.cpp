@@ -5,7 +5,7 @@ Summoner::Summoner(int faction) {
 	faction_ = faction;
 	charaId_ = 3;
 
-	sprintf(name_, "¢Š«m");
+	printf(name_, "¢Š«m");
 }
 
 void Summoner::initializeType() {

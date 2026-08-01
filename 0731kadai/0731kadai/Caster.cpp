@@ -5,7 +5,7 @@ Caster::Caster(int faction) {
 	faction_ = faction;
 	charaId_ = 2;
 
-	sprintf(name_, "魔法使い");
+	printf(name_, "魔法使い");
 }
 
 void Caster::initializeType() {
